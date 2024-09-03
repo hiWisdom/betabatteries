@@ -1,0 +1,11 @@
+/* .typewrite {
+    line-height: 1.7cm;
+} */
+
+
+@media(max-width: 800px) {
+        
+    .typewrite {
+        display: none;
+    }
+}
