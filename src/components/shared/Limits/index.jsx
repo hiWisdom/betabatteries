@@ -50,14 +50,13 @@ export default function Limits() {
             {/* <Video src={getStarted} className="h-[100vh]"/> */}
 
             <MuxPlayer
-            streamType="on-demand"
-            playbackId="t02Lb2CwDlPYgw2xjieSmJAewjsqWLUWRVavlFVDV6zI"
-            metadataVideoTitle="Placeholder (optional)"
-            metadataViewerUserId="Placeholder (optional)"
-            primaryColor="#FFFFFF"
-            secondaryColor="#000000"
-            className="h-[100vh]"
-          />
+              streamType="on-demand"
+              playbackId="jccEzG8evyqcg5MNmvRTtjJKGOPWJ5gLUD0161wDZ02zw"
+              metadataVideoTitle="Placeholder (optional)"
+              metadataViewerUserId="Placeholder (optional)"
+              primaryColor="#FFFFFF"
+              secondaryColor="#000000"
+            />
 
         </motion.div>
       </div>
