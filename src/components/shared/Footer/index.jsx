@@ -151,7 +151,7 @@ export default function Footer({ mobile }) {
                     </li> */}
 
                     <li>
-                      <a href="#" aria-label="social icon">
+                      <a href="https://www.instagram.com/betabatteries/?hl=en" aria-label="social icon">
                       <Image
                         src="/assets/icons/instagram.svg"
                         alt="instagram logo"
@@ -182,10 +182,10 @@ export default function Footer({ mobile }) {
 
                 <li className="flex">
                   <a
-                    href="#"
+                    href="https://main--betabatteries.netlify.app/"
                     className="mb-3 inline-block text-white hover:text-[#b7ac7f]"
                   >
-                    www.betabatteries.com.ng 
+                    www.betabatteries.com 
                   </a>
                 </li>
 
@@ -194,28 +194,28 @@ export default function Footer({ mobile }) {
                     href="#"
                     className="mb-3 inline-block text-white hover:text-[#b7ac7f]"
                   >
-                    6635 W. Happy Valley Rd
-                    Suite# A104-253
-                    Glendale, AZ 85310
+                    Zone D block 3 shop 41, 
+                    Trade Fare Market Aspamda, 
+                    Lagos, Nigeria
                   </a>
                 </li>
 
                 
                 <li className="flex">
                   <a
-                    href="#"
+                    href="tel:+23407069199257"
                     className="mb-3 inline-block text-white hover:text-[#b7ac7f]"
                   >
-                  Phone: 800-350-8101
+                  Phone: 234(0)-706-919-9257
                   </a>
                 </li>
                 
                 <li className="flex">
                   <a
-                    href="#"
+                    href="mail:betahbatteries@gmail.com"
                     className="mb-3 inline-block text-white hover:text-[#b7ac7f]"
                   >
-                    Email: support@betabatteries.com
+                    Email: betahbatteries@gmail.com
                   </a>
                 </li>
 
