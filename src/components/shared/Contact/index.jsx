@@ -16,11 +16,11 @@ const CONTACTs = () => {
 
   return (
     <div
-      className='flex flex-col relative px-[90.5px] bg-red-800 bg-opacity-5 gap-3 py-10 justify-between items-start w-full'
+      className='flex flex-col relative lg:px-[90.5px] sm:px-[40px] bg-red-800 bg-opacity-5 gap-3 py-10 justify-between items-start w-full'
       id='faq'
     >
       <div className='text-3xl md:text-5xl font-bold tracking-wide'>
-      Need help? Send your Questions / Comments
+        Need help? Send your Questions / Comments
       </div>
       <div className='flex self-center  w-full flex-col items-start mt-3'>
 
@@ -92,8 +92,7 @@ const CONTACTs = () => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      By clicking Checkbox, you agree to use our “Form” terms
-                      And consent cookie usage in browser.
+                      By clicking Checkbox, you agree to use our “Form” terms.
                     </label>
                   </div>
 
@@ -119,6 +118,8 @@ const CONTACTs = () => {
                 </div>
               </form>
       </div>
+
+
     </div>
   );
 };

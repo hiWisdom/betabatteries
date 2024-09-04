@@ -48,7 +48,7 @@ const Navbar = () => {
         animate={{ x: [200, 0] }}
         className='flex flex-row mx-auto gap-5 lg:gap-8 justify-start items-center w-full'
       >
-        <div className='flex w-[24vh] h-[16vh] justify-start items-center'>
+        <div className='flex py-5 w-[24vh] h-[16vh] justify-start items-center' id='company-logo'>
           <Link href={"/"}>
             <Image
               loader={imageLoader}

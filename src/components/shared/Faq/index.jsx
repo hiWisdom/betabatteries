@@ -16,7 +16,7 @@ const FAQs = () => {
 
   return (
     <div
-      className='flex flex-col relative px-[90.5px] bg-red-800 bg-opacity-5 gap-3 py-10 justify-between items-start w-full'
+      className='flex flex-col relative lg:px-[90.5px] bg-red-800 bg-opacity-5 gap-3 py-10 justify-between items-start w-full'
       id='faq'
     >
       <div className='text-3xl md:text-5xl font-bold tracking-wide'>

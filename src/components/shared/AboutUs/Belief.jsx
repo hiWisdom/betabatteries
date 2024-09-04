@@ -42,7 +42,7 @@ function Mission() {
 
         
             
-        <Link href={"/auth/register"}>
+        <Link href={"/"}>
           <button className='px-8 py-2.5 mt-8 rounded-[10px] border-2 border-[black] justify-center items-center flex hover:bg-white bg-[black] transition-all duration-300 group shadow-lg shadow-[#000000]/20'>
             <div className="group-hover:text-primary text-xl font-medium font-['Roboto'] leading-normal tracking-wide text-white">
               Purchase Inverter Battery

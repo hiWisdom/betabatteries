@@ -35,7 +35,7 @@ export default function Footer({ mobile }) {
           <div className='flex flex-col md:flex-row w-auto gap-8 justify-center items-start md:items-center'>
             <div className='h-11 py-3 justify-start items-center gap-2 flex'>
               <Link
-                href={"/courses"}
+                href={"/#"}
                 className="text-slate-900 text-base font-normal font-['Roboto'] leading-snug"
               >
                 Find a Battery
@@ -43,7 +43,7 @@ export default function Footer({ mobile }) {
             </div>
             <div className='h-11 py-3 justify-start items-center gap-2 flex'>
               <Link
-                href={"/about"}
+                href={"/#"}
                 className="text-slate-900 text-base font-normal font-['Roboto'] leading-snug"
               >
                 All Battery Available
@@ -51,7 +51,7 @@ export default function Footer({ mobile }) {
             </div>
             <div className='h-11 py-3 justify-start items-center gap-2 flex'>
               <Link
-                href={"/#our-mandate"}
+                href={"/#"}
                 className="text-slate-900 text-base font-normal font-['Roboto'] leading-snug"
               >
                 Quick battery purchase
@@ -59,7 +59,7 @@ export default function Footer({ mobile }) {
             </div>
             <div className='h-11 py-3 justify-start items-center gap-2 flex'>
               <Link
-                href={"/courses"}
+                href={"/#"}
                 className="text-slate-900 text-base font-normal font-['Roboto'] leading-snug"
               >
                 FAQ
@@ -67,7 +67,7 @@ export default function Footer({ mobile }) {
             </div>
             <div className='h-11 py-3 justify-start items-center gap-2 flex'>
               <Link
-                href={"/#faq"}
+                href={"/#"}
                 className="text-slate-900 text-base font-normal font-['Roboto'] leading-snug"
               >
                 Feedback
@@ -461,17 +461,17 @@ export default function Footer({ mobile }) {
             <div className='flex w-auto flex-row gap-4 justify-center items-center'>
               <div className='py-3 justify-start items-center gap-2 flex'>
                 <div className="text-slate-600 text-base font-normal font-['Roboto'] leading-snug">
-                  <a href="">Terms of Service</a>
+                  <a href="#">Terms of Service</a>
                 </div>
               </div>
               <div className='py-3 justify-start items-center gap-2 flex'>
                 <div className="text-slate-600 text-base font-normal font-['Roboto'] leading-snug">
-                  <a href="">Privacy Policy</a>
+                  <a href="#">Privacy Policy</a>
                 </div>
               </div>
               <div className='py-3 justify-start items-center gap-2 flex'>
                 <div className="text-slate-600 text-base font-normal font-['Roboto'] leading-snug">
-                  <a href="">Contact us</a> 
+                  <a href="#">Contact us</a> 
                 </div>
               </div>
             </div>

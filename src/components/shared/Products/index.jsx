@@ -14,8 +14,8 @@ export default function Products() {
       <div className='flex flex-col justify-start  items-center gap-4'>
 
 
-        <div className='text-center text-slate-900 text-[28px]  md:text-[26px] font-bold'>
-        Beta Batteries - Nationwide Battery Distribution
+        <div className='text-center text-slate-900 text-[20px] font-bold'>
+          Beta Batteries - Nationwide Battery Distribution
         </div>
 
 
