@@ -4,7 +4,7 @@ import React from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
 import Video from 'next-video';
-// import getStarted from '/videos/v-1.mp4';
+import getStarted from '/videos/v-2.mp4';
 import MuxPlayer from '@mux/mux-player-react';
 import Past_Events from "@/components/shared/Events/Past_Events";
 // import CheckMark from '/assets/icons/check-mark-symbol-black-background-drawing.jpg';
@@ -47,17 +47,17 @@ export default function Limits() {
             src='/assets/images/courses.png'
           /> */}
 
-            {/* <Video src={getStarted}/> */}
+            {/* <Video src={getStarted} className="h-[100vh]"/> */}
 
             <MuxPlayer
-              streamType="on-demand"
-              playbackId="bIsm401MguXPFDMMNoT02QHT4Wz8XoP11MpZyCbA5Yjao"
-              metadataVideoTitle="Placeholder (optional)"
-              metadataViewerUserId="Placeholder (optional)"
-              primaryColor="#FFFFFF"
-              secondaryColor="#000000"
-              className="h-[100vh]"
-            />
+            streamType="on-demand"
+            playbackId="t02Lb2CwDlPYgw2xjieSmJAewjsqWLUWRVavlFVDV6zI"
+            metadataVideoTitle="Placeholder (optional)"
+            metadataViewerUserId="Placeholder (optional)"
+            primaryColor="#FFFFFF"
+            secondaryColor="#000000"
+            className="h-[100vh]"
+          />
 
         </motion.div>
       </div>

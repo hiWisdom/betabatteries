@@ -116,7 +116,7 @@ const Navbar = () => {
         className='md:flex w-[15em] md:w-[20%] justify-end hidden items-center'
       >
         <Link
-          href={"/auth/login"}
+          href={"/#"}
           className={`font-bold w-[100%] bg-[black] text-white duration-300 hover:bg-[#b7ac7f] hover:text-[white] px-3 ${
             pathname === `/auth/login` || `/${url}` ? "" : "block"
           } py-3 text-center w-full md:w-[100%] rounded-md`}

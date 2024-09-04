@@ -52,9 +52,19 @@ export default function Events() {
 
 
 
+          {/* <MuxPlayer
+            streamType="on-demand"
+            playbackId="KiZS7L8CF02T3Qvel1jHaAJdgeQ02gRgLVybMuwpZi3PA"
+            metadataVideoTitle="Placeholder (optional)"
+            metadataViewerUserId="Placeholder (optional)"
+            primaryColor="#FFFFFF"
+            secondaryColor="#000000"
+            className="h-[100vh]"
+          /> */}
+
           <MuxPlayer
             streamType="on-demand"
-            playbackId="bIsm401MguXPFDMMNoT02QHT4Wz8XoP11MpZyCbA5Yjao"
+            playbackId="t02Lb2CwDlPYgw2xjieSmJAewjsqWLUWRVavlFVDV6zI"
             metadataVideoTitle="Placeholder (optional)"
             metadataViewerUserId="Placeholder (optional)"
             primaryColor="#FFFFFF"
