@@ -6,6 +6,9 @@ import EastIcon from "@mui/icons-material/East";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { AnimatePresence, motion } from "framer-motion";
+import HeroTab from "@/components/hero/herotabs"
+import Highlight from "@/components/hero/highlight"
+import HighlightCountUp from "@/components/hero/highlightcountup"
 
 const patners = ["astrom", "cicio", "weavy", "vRockets", "PowerStation"];
 const carousel = [
@@ -29,7 +32,7 @@ function HeroSection() {
   }, []);
 
   return (
-    <div className='w-full mx-auto mt-[60px] md:mt-[80px] flex px-5 md:px-[60px] bg-primary bg-opacity-[0.03] pt-[16vh] md:pt-[126px] flex-col items-start justify-start relative h-screen md:h-[120vh]'>
+    <div className='lg:w-[90%] mx-auto mt-[60px] md:mt-[80px] flex px-5 md:px-[60px] bg-primary bg-opacity-[0.03] pt-[16vh] md:pt-[126px] flex-col items-start justify-start relative h-screen md:h-[120vh]'>
       {carousel.map((item, index) => (
         <AnimatePresence key={index.toString()}>
           {activeIndex === index && (
@@ -51,27 +54,49 @@ function HeroSection() {
           )}
         </AnimatePresence>
       ))}
-      <section className='flex ml-4 md:ml-[30px] lg:ml-[68px] z-10 self-start mt-[20px] md:mt-[28px] md:py-[4em] flex-col items-start h-max md:justify-center'>
-        <div className='flex flex-col justify-start items-start gap-6'>
-          <div className='text-[black] text-2xl md:text-[28px] font-medium'>
-            The most reliable company relating to anything energy in Nigeria. Call or WhatsApp +2347069199257.
-            Payment on or before delivery.
-            Wholesale + Retail.  {" "}
-          </div>
-          <div className='text-[black] text-4xl w-[80%] md:w-full md:text-[58px] font-extrabold'>
-            BETA BATTERIES
-          </div>
-          <div className='flex flex-col gap-3 md:w-[45vw]'>
-            <span className='text-white lg:text-xl font-normal leading-7'>
-              Counter
-            </span>
-            <span className='text-[#DBB632] mt-6 text-xl font-normal leading-7'>
-              {"(Copy right reserved.)"}
-            </span>
-          </div>
+
+      <section className='flex z-10 h-max mx-auto w-[100%]' id="hero-tabs">
+
+
+        <div className="flex lg:w-[50%]">
+
+          <HeroTab/>
+
         </div>
 
-        <div className='flex flex-col mt-[42px] justify-start items-start gap-8'>
+        <div className="flex lg:w-[50%]">
+
+          <div className=" flex-col  bg-white rounded-md">
+            <Highlight/>
+
+            <HighlightCountUp/>
+          </div>
+
+        </div>
+
+
+          {/* <div className='flex flex-col justify-start items-start gap-6'>
+            <div className='text-[black] text-2xl md:text-[28px] font-medium'>
+              The most reliable company relating to anything energy in Nigeria. Call or WhatsApp +2347069199257.
+              Payment on or before delivery.
+              Wholesale + Retail.  {" "}
+            </div>
+            <div className='text-[black] text-4xl w-[80%] md:w-full md:text-[58px] font-extrabold'>
+              BETA BATTERIES
+            </div>
+            <div className='flex flex-col gap-3 md:w-[45vw]'>
+              <span className='text-white lg:text-xl font-normal leading-7'>
+                Counter
+              </span>
+              <span className='text-[#DBB632] mt-6 text-xl font-normal leading-7'>
+                {"(Copy right reserved.)"}
+              </span>
+            </div>
+          </div> */}
+
+
+        {/* <div className='flex flex-col mt-[42px] justify-start items-start gap-8'>
+
           <div className='flex flex-row justify-start items-start gap-3'>
             <Link
               href='/'
@@ -111,8 +136,11 @@ function HeroSection() {
               />
             ))}
           </div>
-        </div>
+
+        </div> */}
+
       </section>
+
       <section className='flex z-30 absolute  w-full px-[20px] md:px-[80px] justify-between gap-[5vw] bottom-7 md:bottom-10 self-center items-center'>
         <Marquee
           direction='left'
@@ -138,6 +166,7 @@ function HeroSection() {
           </div>
         </Marquee>
       </section>
+
     </div>
   );
 }

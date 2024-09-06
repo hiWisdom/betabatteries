@@ -199,6 +199,16 @@ line-height: 0.5cm;
   #company-logo {
     margin-top: 10% !important;
   }
+
+  #hero-tabs {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 5%;
+  }
+
+  #hero-typewriter {
+    font-size: 25px !important;
+  }
   
 }
 /* C:\Users\user\Documents\Beta Battery\Webapp\betabatterymain\site\public\assets\icons */

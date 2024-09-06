@@ -5,7 +5,7 @@ import Products from "@/components/shared/Products";
 import Limits from "@/components/shared/Limits";
 import Mandate from "@/components/shared/Our-Mandate";
 import CoreValues from "@/components/shared/CoreValues";
-// import Modules from '@/components/shared/Modules';
+import Modules from '@/components/shared/Modules';
 import FAQs from "@/components/shared/Faq";
 import CONTACTs from "@/components/shared/Contact";
 import Footer from "@/components/shared/Footer";
