@@ -203,11 +203,21 @@ line-height: 0.5cm;
   #hero-tabs {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 5%;
+    width: 90% !important;
+    margin-top: -10% !important;
+    margin-left: -2.5% !important;
   }
 
   #hero-typewriter {
     font-size: 25px !important;
+  }
+
+  #betabattery-information {
+    height: 11vh !important;
+  }
+
+  #hero-tabs-highlight {
+    height: 50vh !important;
   }
   
 }

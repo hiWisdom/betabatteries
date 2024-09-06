@@ -64,7 +64,7 @@ function HeroSection() {
 
         </div>
 
-        <div className="flex lg:w-[50%] bg-white h-[65vh] rounded-md">
+        <div className="flex lg:w-[50%] bg-white h-[65vh] rounded-md" id="hero-tabs-highlight">
 
           <div className=" flex-col">
             <Highlight/>
@@ -75,73 +75,10 @@ function HeroSection() {
         </div>
 
 
-          {/* <div className='flex flex-col justify-start items-start gap-6'>
-            <div className='text-[black] text-2xl md:text-[28px] font-medium'>
-              The most reliable company relating to anything energy in Nigeria. Call or WhatsApp +2347069199257.
-              Payment on or before delivery.
-              Wholesale + Retail.  {" "}
-            </div>
-            <div className='text-[black] text-4xl w-[80%] md:w-full md:text-[58px] font-extrabold'>
-              BETA BATTERIES
-            </div>
-            <div className='flex flex-col gap-3 md:w-[45vw]'>
-              <span className='text-white lg:text-xl font-normal leading-7'>
-                Counter
-              </span>
-              <span className='text-[#DBB632] mt-6 text-xl font-normal leading-7'>
-                {"(Copy right reserved.)"}
-              </span>
-            </div>
-          </div> */}
-
-
-        {/* <div className='flex flex-col mt-[42px] justify-start items-start gap-8'>
-
-          <div className='flex flex-row justify-start items-start gap-3'>
-            <Link
-              href='/'
-              className='w-max px-4 md:px-7 py-4 duration-300 bg-[#b7ac7f] text-[white] hover:bg-[black] hover:text-white rounded shadow justify-center items-center font-bold gap-3 flex'
-            >
-              <WbTwilightIcon />
-              <div className='text-sm md:text-lg font-semibold'>ORDER BATTERY</div>
-            </Link>
-
-            <Link
-              href='/auth/login'
-              className='w-max px-4 md:px-7 py-4 duration-300 hover:bg-[#b7ac7f] hover:text-[white] bg-[black] text-white rounded shadow justify-center items-center font-bold gap-3 flex'
-            >
-              <div className='text-sm md:text-lg font-semibold'>
-                CONTACT US
-              </div>
-              <EastIcon />
-            </Link>
-          </div>
-
-          <div className='justify-start items-center gap-2 flex'>
-            {carousel.map((_, index) => (
-              <motion.div
-                key={index.toString()}
-                onClick={() => setActiveIndex(index)}
-                initial={{
-                  backgroundColor: "#f9f9f9",
-                  borderColor: "#090909",
-                }}
-                animate={{
-                  backgroundColor:
-                    index === activeIndex ? "#090909" : "#f9f9f9",
-                  borderColor: index === activeIndex ? "#f9f9f9" : "#090909",
-                }}
-                transition={{ duration: 2 }}
-                className='w-[13px] h-[13px] cursor-pointer rounded-full border border-white justify-end items-center flex'
-              />
-            ))}
-          </div>
-
-        </div> */}
-
       </section>
 
       <section className='flex z-30 absolute  w-full px-[20px] md:px-[80px] justify-between gap-[5vw] bottom-7 md:bottom-10 self-center items-center'>
+        <p style={{ fontWeight: 'bold', fontSize: '20px' }} >Our Manufacturer</p><br/>
         <Marquee
           direction='left'
           speed={80}
@@ -157,7 +94,7 @@ function HeroSection() {
                 <Image
                   fill
                   key={ind.toString()}
-                  src={`/assets/logos/${item}.svg`}
+                  src={`/assets/logos/${item}.jpg`}
                   alt='log'
                   className=''
                 />

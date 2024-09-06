@@ -13,7 +13,7 @@ const Highlight = () => {
     <>
       {/* <!-- ===== Features Tab Start ===== --> */}
       <section className="relative mx-auto">
-        <div className="relative mx-auto px-4 md:px-8 2xl:px-0 h-[20vh] s:h-[15vh]">
+        <div className="relative mx-auto px-4 md:px-8 2xl:px-0 h-[22vh]" id="betabattery-information">
 
           {/* <!-- Tab Menues Start --> */}
           <motion.div

@@ -45,7 +45,7 @@ const HighlightCountUp = (isOpen) => {
 
             <div className="flex">
 
-                <div className="flex flex-col m-1 justify-center border-r-2 p-r-1 m-2 border-[#b7ac7f]">
+                <div className="flex flex-col m-1 justify-center  border-2 p-3 border-[#b7ac7f] rounded-md">
 
                     <div className="">
                         <p className="text-[#b7ac7f] s:text-[12px] lg:text-xl font-bold">Battery Sold</p>
@@ -60,7 +60,7 @@ const HighlightCountUp = (isOpen) => {
                 </div>
 
                 
-                <div className="flex flex-col m-1 justify-center border-r-2 p-r-1 m-2 border-[#b7ac7f]">
+                <div className="flex flex-col m-1 justify-center border-2 p-3 border-[#b7ac7f] rounded-md">
 
 
                     <div className="flex flex-col justify-center">
@@ -80,7 +80,7 @@ const HighlightCountUp = (isOpen) => {
                 </div>
 
                 
-                <div className="flex flex-col m-1 justify-center p-r-1 m-2 ">
+                <div className="flex flex-col m-1 justify-center  border-2 p-3 border-[#b7ac7f] rounded-md">
 
 
                     <div className="flex flex-col justify-center">
@@ -109,7 +109,7 @@ const HighlightCountUp = (isOpen) => {
             <div className='flex w-full duration-300 flex-col text-black pt-2 my-4 justify-center items-start'>
               <div
                 onClick={() => toggleAccordion(openAccordionId)}
-                className='border-t w-full   cursor-pointer flex flex-row pt-4 gap-3 rounded-md justify-between items-center'
+                className='border-t w-[200px] cursor-pointer flex flex-row pt-4 gap-3 rounded-md justify-between items-center'
               >
                 <p className={`text-[15px] md:text-[18.687px] w-full font-bold text-center`}>
                   Contact the Seller
@@ -137,10 +137,25 @@ const HighlightCountUp = (isOpen) => {
                     className='flex mt-2 flex-col w-full rounded-md justify-center items-start'
                   >
                     <p className='text-[15.29px] px-2'>
-                      <ul>
-                        <li>Phone: <a href="">234(0)-706-919-9257</a></li>
-                        <li>Email: <a href="">betahbatteries@gmail.com</a></li>
-                      </ul>
+
+                      <div className="flex">
+
+                        <div className="m-1">
+                          <ul>
+                            <li>Phone: <a href="">234(0)-706-919-9257</a></li>
+                            <li>Email: <a href="">betahbatteries@gmail.com</a></li>
+                          </ul>
+                        </div>
+
+                        
+                        <div className="m-1">
+                          <ul>
+                            <li>Phone: <a href="">234(0)-706-919-9257</a></li>
+                            <li>Email: <a href="">betahbatteries@gmail.com</a></li>
+                          </ul>
+                        </div>
+
+                      </div>
                     </p>
                   </motion.div>
                 )}
