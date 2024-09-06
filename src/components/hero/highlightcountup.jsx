@@ -45,7 +45,7 @@ const HighlightCountUp = (isOpen) => {
 
             <div className="flex">
 
-                <div className="flex flex-col m-1 justify-center">
+                <div className="flex flex-col m-1 justify-center border-r-2 p-r-1 m-2 border-[#b7ac7f]">
 
                     <div className="">
                         <p className="text-[#b7ac7f] s:text-[12px] lg:text-xl font-bold">Battery Sold</p>
@@ -60,7 +60,7 @@ const HighlightCountUp = (isOpen) => {
                 </div>
 
                 
-                <div className="flex flex-col m-1 justify-center">
+                <div className="flex flex-col m-1 justify-center border-r-2 p-r-1 m-2 border-[#b7ac7f]">
 
 
                     <div className="flex flex-col justify-center">
@@ -80,7 +80,7 @@ const HighlightCountUp = (isOpen) => {
                 </div>
 
                 
-                <div className="flex flex-col m-1 justify-center">
+                <div className="flex flex-col m-1 justify-center p-r-1 m-2 ">
 
 
                     <div className="flex flex-col justify-center">
@@ -111,7 +111,7 @@ const HighlightCountUp = (isOpen) => {
                 onClick={() => toggleAccordion(openAccordionId)}
                 className='border-t w-full   cursor-pointer flex flex-row pt-4 gap-3 rounded-md justify-between items-center'
               >
-                <p className={`text-[15px] md:text-[18.687px] w-full font-bold`}>
+                <p className={`text-[15px] md:text-[18.687px] w-full font-bold text-center`}>
                   Contact the Seller
                 </p>
                 <div className='flex mr-auto justify-end items-end'>

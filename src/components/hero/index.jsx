@@ -58,15 +58,15 @@ function HeroSection() {
       <section className='flex z-10 h-max mx-auto w-[100%]' id="hero-tabs">
 
 
-        <div className="flex lg:w-[50%]">
+        <div className="flex lg:w-[50%] h-[20vh]">
 
           <HeroTab/>
 
         </div>
 
-        <div className="flex lg:w-[50%]">
+        <div className="flex lg:w-[50%] bg-white h-[65vh] rounded-md">
 
-          <div className=" flex-col  bg-white rounded-md">
+          <div className=" flex-col">
             <Highlight/>
 
             <HighlightCountUp/>
