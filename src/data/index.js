@@ -7,7 +7,7 @@ export const navdata = [
   {
     route: "/",
     route2: "/",
-    imgURL: "/home-svgrepo-com.svg",
+    imgURL: "/home.svg",
     label: "Home",
   },
   // {
@@ -19,19 +19,19 @@ export const navdata = [
   {
     route: "#our-mandate",
     route2: "/#our-mandate",
-    imgURL: "/solar-panel-svgrepo-com.svg",
+    imgURL: "/solar-power.svg",
     label: "Our Solar Panel",
   },
   {
     route: "/events",
     route2: "/events",
-    imgURL: "/about-us-svgrepo-com.svg",
+    imgURL: "/about-us.svg",
     label: "About us",
   },
   {
     route: "#faq",
     route2: "/#faq",
-    imgURL: "/contact-us-filled-svgrepo-com.svg",
+    imgURL: "/customer-service-24.svg",
     label: "Contact us",
   },
 ];

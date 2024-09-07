@@ -83,6 +83,19 @@ const Navbar = () => {
                     src={`/assets/icons${link.imgURL}`}
                   /> */}
 
+                  {/* <div>
+                    {link.imgURL}
+
+                  <Image
+                    alt='navtitleImages'
+                    fill
+                    quality={100}
+                    className='w-[20px]'
+                    src={`/assets/icon${link.imgURL}`}
+                  />
+
+                  </div> */}
+
                   <Link
                     href={`${pathname === "/" ? link.route : link.route2}`}
                     className={`flex gap-4 hover:text-[#b7ac7f] text-sm duration-150 items-center p-4 `}

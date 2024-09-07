@@ -47,55 +47,107 @@ const HighlightCountUp = (isOpen) => {
 
                 <div className="flex flex-col m-1 justify-center  border-2 p-3 border-[#b7ac7f] rounded-md">
 
-                    <div className="">
-                        <p className="text-[#b7ac7f] s:text-[12px] lg:text-xl font-bold">Battery Sold</p>
+                    <div>
+                        <p className="text-[black] s:text-[12px] lg:text-xl font-bold">Battery Sold</p>
                     </div>
 
-                    <div className="justify-center">
-                        <span className="text-[#b7ac7f] lg:text-xl font-bold">+</span>
-                        <CountUp end={1000}
-                        className="text-[#b7ac7f] lg:text-xl font-bold text-center" />
+                    <div className="justify-center flex">
+
+                        <div>
+                          <span className="text-[black] lg:text-xl font-bold">+</span>
+                        </div>
+                        
+                        <div>
+                          <CountUp end={1000}
+                          className="text-[black] lg:text-xl font-bold text-center" />
+                        </div>
+
+                        <div className="w-[30px] my-auto">
+                          <span className="text-[#b7ac7f] lg:text-xl font-bold">
+                            <a href="tel:23407069199257" aria-label="car-battery icon">
+                              <Image
+                                src="/assets/icon/car-battery.svg"
+                                alt="car-battery logo"
+                                width={25}
+                                height={9}
+                                className="w-full"
+                              />
+                            </a>
+                          </span>
+                        </div>
+
                     </div>
           
                 </div>
 
                 
-                <div className="flex flex-col m-1 justify-center border-2 p-3 border-[#b7ac7f] rounded-md">
-
-
-                    <div className="flex flex-col justify-center">
-
-                        <div className="">
-                            <p className="text-[#b7ac7f] s:text-[12px] lg:text-xl font-bold">Solar Panel Sold</p>
-                        </div>
-
-                        <div className="justify-center">
-                            <span className="text-[#b7ac7f] lg:text-xl font-bold">+</span>
-                            <CountUp end={1000}
-                            className="text-[#b7ac7f] lg:text-xl font-bold text-center" />
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
                 <div className="flex flex-col m-1 justify-center  border-2 p-3 border-[#b7ac7f] rounded-md">
 
+                    <div className="">
+                        <p className="text-[black] s:text-[12px] lg:text-xl font-bold">Solar Panel Sold</p>
+                    </div>
 
-                    <div className="flex flex-col justify-center">
+                    <div className="justify-center flex">
 
-                        <div className="">
-                            <p className="text-[#b7ac7f] s:text-[12px] lg:text-xl font-bold">Customer Satifcation</p>
+                        <div>
+                          <span className="text-[black] lg:text-xl font-bold">+</span>
+                        </div>
+                        
+                        <div>
+                          <CountUp end={1000}
+                          className="text-[black] lg:text-xl font-bold text-center" />
                         </div>
 
-                        <div className="justify-center">
-                            <span className="text-[#b7ac7f] lg:text-xl font-bold">+</span>
-                            <CountUp end={2000}
-                            className="text-[#b7ac7f] lg:text-xl font-bold text-center" />
+                        <div className="w-[30px] my-auto">
+                          <span className="text-[#b7ac7f] lg:text-xl font-bold">
+                            <a href="tel:23407069199257" aria-label="solar-power">
+                              <Image
+                                src="/assets/icon/solar-power.svg"
+                                alt="solar-power logo"
+                                width={25}
+                                height={9}
+                                className="w-full"
+                              />
+                            </a>
+                          </span>
                         </div>
 
                     </div>
+          
+                </div>
+
+                <div className="flex flex-col m-1 justify-center  border-2 p-3 border-[#b7ac7f] rounded-md">
+
+                  <div className="">
+                      <p className="text-[black] s:text-[12px] lg:text-xl font-bold">Customer Satifcation</p>
+                  </div>
+
+                  <div className="justify-center flex">
+
+                      <div>
+                        <span className="text-[black] lg:text-xl font-bold">+</span>
+                      </div>
+                      
+                      <div>
+                        <CountUp end={2000}
+                        className="text-[black] lg:text-xl font-bold text-center" />
+                      </div>
+
+                      <div className="w-[30px] my-auto">
+                        <span className="text-[#b7ac7f] lg:text-xl font-bold">
+                          <a href="tel:23407069199257" aria-label="social icon">
+                            <Image
+                              src="/assets/icon/customer-satisfaction.svg"
+                              alt="customer-satisfaction logo"
+                              width={25}
+                              height={9}
+                              className="w-full"
+                            />
+                          </a>
+                        </span>
+                      </div>
+
+                  </div>
 
                 </div>
 
@@ -142,18 +194,72 @@ const HighlightCountUp = (isOpen) => {
 
                         <div className="m-1">
                           <ul>
-                            <li>Phone: <a href="">234(0)-706-919-9257</a></li>
-                            <li>Email: <a href="">betahbatteries@gmail.com</a></li>
+
+                            <li className="mb-2">
+
+
+                              <div className="flex">
+                                
+                                <div className="w-[30px] my-auto">
+                                  <span className="text-[#b7ac7f] lg:text-xl font-bold">
+                                    <a href="tel:23407069199257" aria-label="social icon">
+                                      <Image
+                                        src="/assets/icon/customer-service-24.svg"
+                                        alt="instagram logo"
+                                        width={25}
+                                        height={9}
+                                        className="w-full"
+                                      />
+                                    </a>
+                                  </span>
+                                </div>
+  
+                                <div className="ml-2 mt-2">
+  
+                                  <a href="tel:+23407069199257">234(0)-706-919-9257</a>
+                               
+                                </div>
+
+                              </div>
+                            
+                            </li>
+
+                            <li>
+
+                              <div className="flex">
+
+                                <div className="w-[30px] my-auto">
+                                  <span className="text-[#b7ac7f] lg:text-xl font-bold">
+                                    <a href="tel:23407069199257" aria-label="social icon">
+                                      <Image
+                                        src="/assets/icon/email-mail.svg"
+                                        alt="instagram logo"
+                                        width={25}
+                                        height={9}
+                                        className="w-full"
+                                      />
+                                    </a>
+                                  </span>
+                                </div>
+                                
+                                <div className="ml-2 mt-2">
+                                  <a href="mail:betahbatteries@gmail.com">betahbatteries@gmail.com</a>
+                                </div>
+
+                              </div>
+                              
+                            </li>
+
                           </ul>
                         </div>
 
                         
-                        <div className="m-1">
+                        {/* <div className="m-1">
                           <ul>
-                            <li>Phone: <a href="">234(0)-706-919-9257</a></li>
-                            <li>Email: <a href="">betahbatteries@gmail.com</a></li>
+                            <li>Phone: <a href="tel:+23407069199257">234(0)-706-919-9257</a></li>
+                            <li>Email: <a href="mail:betahbatteries@gmail.com">betahbatteries@gmail.com</a></li>
                           </ul>
-                        </div>
+                        </div> */}
 
                       </div>
                     </p>

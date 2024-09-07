@@ -6,8 +6,8 @@ import EastIcon from "@mui/icons-material/East";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { AnimatePresence, motion } from "framer-motion";
-import HeroTab from "@/components/hero/herotabs"
-import Highlight from "@/components/hero/highlight"
+import HeroTab from "@/components/hero/herotabs";
+import Highlight from "@/components/hero/highlight";
 import HighlightCountUp from "@/components/hero/highlightcountup"
 
 const patners = ["638ee8bf6f869", "cicio", "weavy", "vrockets", "viewio"];

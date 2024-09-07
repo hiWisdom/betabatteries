@@ -47,7 +47,15 @@ const HeroTab = () => {
             >
               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  01
+                <div className="w-[30px] my-auto">
+                  <Image
+                    src="/assets/icon/solar-power.svg"
+                    alt="instagram logo"
+                    width={25}
+                    height={9}
+                    className="w-full"
+                  />
+                  </div>
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
@@ -69,7 +77,15 @@ const HeroTab = () => {
             >
               <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  02
+                <div className="w-[30px] my-auto">
+                  <Image
+                      src="/assets/icon/car-battery.svg"
+                      alt="instagram logo"
+                      width={25}
+                      height={9}
+                      className="w-full"
+                    />
+                </div>
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
