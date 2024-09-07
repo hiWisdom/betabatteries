@@ -203,7 +203,7 @@ line-height: 0.5cm;
   #hero-tabs {
     display: flex;
     flex-direction: column-reverse;
-    width: 90% !important;
+    width: 97% !important;
     margin-top: -10% !important;
     margin-left: -2.5% !important;
   }

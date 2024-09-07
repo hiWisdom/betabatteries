@@ -59,7 +59,7 @@ const HeroTab = () => {
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
-                <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                <button className="text-sm font-medium text-black xl:text-regular">
                     Solar Panel Calculator
                 </button>
               </div>
@@ -89,7 +89,7 @@ const HeroTab = () => {
                 </p>
               </div>
               <div className="md:w-3/5 lg:w-auto">
-                <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                <button className="text-sm font-medium text-black xl:text-regular">
                     Find Beta Battery
                 </button>
               </div>
