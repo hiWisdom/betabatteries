@@ -10,7 +10,7 @@ import HeroTab from "@/components/hero/herotabs"
 import Highlight from "@/components/hero/highlight"
 import HighlightCountUp from "@/components/hero/highlightcountup"
 
-const patners = ["astrom", "cicio", "weavy", "vRockets", "PowerStation"];
+const patners = ["638ee8bf6f869", "cicio", "weavy", "vrockets", "viewio"];
 const carousel = [
   "/assets/images/bg-1.jpeg",
   "/assets/images/bg-2.jpeg",
@@ -78,7 +78,7 @@ function HeroSection() {
       </section>
 
       <section className='flex z-30 absolute  w-full px-[20px] md:px-[80px] justify-between gap-[5vw] bottom-7 md:bottom-10 self-center items-center'>
-        <p style={{ fontWeight: 'bold', fontSize: '20px' }} >Our Manufacturer</p><br/>
+        <p style={{ fontWeight: 'bold', fontSize: '20px' }} >MANUFACTURER:</p>
         <Marquee
           direction='left'
           speed={80}
